@@ -1,7 +1,7 @@
 {
   inputs.disko.url = "github:nix-community/disko/latest";
 
-  outputs = { disco }: {
+  outputs = { disko }: {
     disko.devices = {
       disk = {
         main = {
