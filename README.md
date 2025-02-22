@@ -1,5 +1,5 @@
 # Installation
 
 ```shell
-curl -Ls https://github.com/herm1t0/nixos-niri-config/blob/main/install.sh?raw=true | sudo bash -s --
+sudo nix run 'github:nix-community/disko/latest#disko-install' -- --flake 'github:herm1t0/nixos-niri-config/' --disk main /dev/sda
 ```
