@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "test"
+nixos-generate-config
